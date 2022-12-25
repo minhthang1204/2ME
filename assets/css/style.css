@@ -169,18 +169,19 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   background: rgba(255, 176, 49, 0.8);
+  position: absolute;
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
 }
 
-#header.fixed-top {
+/* #header.fixed-top {
   background: rgba(255, 176, 49, 0.8);
-}
+} */
 
 #header .logo {
   font-size: 20px;
-  margin: 0;
+  margin: 50px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
